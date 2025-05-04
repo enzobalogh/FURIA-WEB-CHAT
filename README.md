@@ -72,8 +72,7 @@ FURIA Bot: Elenco: KSCERATO, yuurih, arT, chelo, saffee.
 ## 📌 Melhorias Futuras
 
 - Integração real com bot (Manychat, Telegram ou WhatsApp)
-- Animações e som de torcida
-- Design responsivo completo para celular
+
 
 ---
 
