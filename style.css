@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Gameplay';
+    src: url('font/Gameplay.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Game2';
+    src: url('font/Orbitron-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Gameplay';
+    font-weight: normal;
+    color: white;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Game2';
+    font-weight: bolder;
+    color: white;
+}
+
+#chat {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    background: #222;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#messages {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #444;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #000;
+    text-align: left;
+}
+
+#fanInput {
+    width: 70%;
+    padding: 10px;
+    background-color: #111;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background: rgb(122, 213, 243);
+    color: #000;
+    font-family: 'Game2';
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bot-msg {
+    background-color: #111;
+    color: #0ff;
+    padding: 8px 12px;
+    border-radius: 12px;
+    margin: 5px 0;
+    max-width: 80%;
+    align-self: flex-start;
+    font-family:  sans-serif;
+    box-shadow: 0 0 5px #0ff;
+  }
+  
+  .torcida-msg {
+    background-color: #222;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 12px;
+    margin: 5px 0;
+    max-width: 80%;
+    align-self: flex-start;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .user-msg {
+    background-color: #440;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 12px;
+    margin:8px;
+    max-width: 80%;
+    align-self: flex-start;
+    font-weight: normal;
+    font-family: sans-serif;
+  }
+   
+  /* Responsividade para dispositivos móveis */
+@media (max-width: 480px) {
+    body {
+      flex-direction: column;
+      align-items: stretch;
+      height: 100vh;
+      padding: 0;
+      display: flex;
+      margin: 0;
+    }
+  
+    #chat {
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+      border: none;
+      box-shadow: none;
+    }
+  
+    #messages {
+        display: flex;
+        flex-direction: column;
+       padding: 8px;
+      font-size: 0.9em; 
+    }
+  
+    .input-area {
+      flex-direction: row;
+    }
+  
+    #fanInput {
+      font-size: 0.9em;
+      padding: 10px;
+    }
+  
+    button {
+      font-size: 0.9em;
+      padding: 10px 12px;
+    }
+  
+    .bot-msg,
+    .torcida-msg,
+    .user-msg {
+      font-size: 0.9em;
+      max-width: 100%;
+    }
+  }
+  
+  
